@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+qa/node_modules
+
+# Next.js / build output
+.next
+out
+build
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment and secrets
+.env*
+*.pem
+*.key
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# QA tooling: local Chromium download and generated reports/screenshots
+.playwright
+qa/output
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json

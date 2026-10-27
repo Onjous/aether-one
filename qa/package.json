@@ -1,0 +1,10 @@
+{
+  "name": "aether-qa",
+  "private": true,
+  "type": "module",
+  "description": "Browser QA scripts for AETHER ONE (Playwright). Not part of the app bundle.",
+  "dependencies": {
+    "lighthouse": "13.5.0",
+    "playwright": "1.63.0"
+  }
+}
